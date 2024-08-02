@@ -5,11 +5,11 @@
 using namespace std;
 int main() {
 	list<const char*>ekiname = { "tokyo","kanda","akihabara","okachimachi","ueno"
-		,"uguisudani","nippori","tabata","komagome"
+		,"uguisudani","nippori","nishi-nippori","tabata","komagome"
 		,"sugamo","otuka","ikebukuro","mejiro","takadanobaba",
-		"shino-kubo","shinjuku","yoyogi"
+		"shin-okubo","shinjuku","yoyogi"
 		,"harajuku","shibuya","ebisu","meguro","gotanda","osaki"
-		,"shinagawa","tamachi","hamamatucho","shinbashi","yurakucho" };
+		,"shinagawa","tamachi","hamamatucho","shimbashi","yurakucho" };
 	for (list<const char*>::iterator itr = ekiname.begin(); itr != ekiname.end(); ++itr) {
 		cout << *itr << endl;
 	}
